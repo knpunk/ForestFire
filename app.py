@@ -12,6 +12,8 @@ def hello_world():
     return render_template("forest_fire.html")
 
 
+##brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+
 @app.route('/predict',methods=['POST','GET'])
 def predict():
     int_features=[int(x) for x in request.form.values()]
